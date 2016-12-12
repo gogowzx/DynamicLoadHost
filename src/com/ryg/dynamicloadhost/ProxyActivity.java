@@ -43,6 +43,8 @@ public class ProxyActivity extends Activity {
 
     private Activity mRemoteActivity;
     private HashMap<String, Method> mActivityLifecircleMethods = new HashMap<String, Method>();
+    
+    private int mCount;
 
     protected void loadResources() {
         try {
